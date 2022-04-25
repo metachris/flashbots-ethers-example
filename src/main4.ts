@@ -47,7 +47,7 @@ export const run = async (): Promise<boolean> => {
     }
   ])
 
-  console.log("siulating...")
+  console.log("simulating...")
   const targetBlock = latestBlockNumber + 1
   const simulation = await flashbotsProvider.simulate(signedTransactions, targetBlock)
   console.log(simulation)

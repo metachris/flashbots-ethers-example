@@ -20,7 +20,8 @@
     "sourceMap": true,
     "outDir": "./dist/tsc/",
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "lib": [
       "ES6",

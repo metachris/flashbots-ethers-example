@@ -33,7 +33,7 @@
     "esbuild-node:watch": "esbuild src/cli.ts --bundle --platform=node --watch --sourcemap=external --outfile=dist/esbuild/cli.js"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.21",
+    "@types/jest": "^27.4.1",
     "@types/node": "^15.0.1",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
